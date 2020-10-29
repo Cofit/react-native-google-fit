@@ -11,7 +11,7 @@
 
 package com.reactnative.googlefit;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -141,7 +141,7 @@ public class ActivityHistory {
                 results.pushMap(map);
             }
         }
-        
+
         return results;
     }
 }
